@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Dgcardtask - Start Work",
+  "Type": "App",
+  "Id": "_sxVOeW0FEuAmdWCztGMhA",
+  "Reference": "bOiXcwqjc0ij01kTBfHbXg/_sxVOeW0FEuAmdWCztGMhA",
+  "Created": "2025-06-04T03:00:42.3173292Z",
+  "Updated": "2025-06-04T03:00:42.3173292Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

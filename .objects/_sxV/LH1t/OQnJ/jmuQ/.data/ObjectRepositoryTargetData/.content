@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xldkE6iVZkqeJiHVCfH5RQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvElementArea="913, 791, 143, 38" CvTextArea="927, 804, 113, 13" CvTextArgument="Generate QRCode" CvType="Button" DesignTimeRectangle="916, 792, 139, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='submitBtn' tag='BUTTON' /&gt;" Guid="e3529c7e-f075-45b1-b792-3c132dd727ab" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="401da6a690381426934d6c92f1e221f5.png" xmlns="">0W3z2DDV3xUeS6gAEA4HFhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

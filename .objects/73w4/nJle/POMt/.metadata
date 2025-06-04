@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Dgcardtask - Start Work - Opera(1)",
+  "Type": "Screen",
+  "Id": "POMtAQmzRk6Jx18WIBS_ZQ",
+  "Reference": "bOiXcwqjc0ij01kTBfHbXg/POMtAQmzRk6Jx18WIBS_ZQ",
+  "ParentRef": "bOiXcwqjc0ij01kTBfHbXg/nJleIyWoTEW0AhDTZu64Og",
+  "Created": "2025-06-04T02:57:41.8290728Z",
+  "Updated": "2025-06-04T02:57:41.8290728Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

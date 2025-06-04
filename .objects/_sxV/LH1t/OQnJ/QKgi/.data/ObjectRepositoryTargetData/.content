@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HlGyo-S2FEu_k6EZOBfCwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="295cbc6a-45ba-4b2f-b499-bff7a7f3ba6a" CvElementArea="416, 320, 388, 39" CvType="InputBox" DesignTimeRectangle="417, 322, 386, 35" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='select_data' tag='SELECT' type='' class='form-control' aaname='Select Form *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="580dd973-cc3a-4a92-8bba-639923177083" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="295cbc6a-45ba-4b2f-b499-bff7a7f3ba6a" CvTextArea="279, 325, 73, 11" CvTextArgument="Select Form" CvType="Text" DesignTimeRectangle="270, 322, 136, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='form-label col-md-3' aaname='Select Form *' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Select Form *' /&gt;" Guid="d9ecc5aa-231e-4fec-b0c6-4382a806af49" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1cd9d5b0445c3ad045fe38fc77cabfdc.png" xmlns="">0PaN4Ihj3dkm5GOfHp_OaWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oSW6n7y7MEqjGjcCfhtNkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvElementArea="913, 791, 143, 38" CvTextArea="927, 804, 113, 13" CvTextArgument="Generate QRCode" CvType="Button" DesignTimeRectangle="916, 792, 139, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='submitBtn' tag='BUTTON' /&gt;" Guid="cd2cb124-b0f2-47fb-b2a6-e2448eb220c0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvElementArea="913, 791, 143, 38" CvTextArea="927, 804, 113, 13" CvTextArgument="Generate QRCode" CvType="Button" DesignTimeRectangle="905, 770, 544, 61" FuzzySelectorArgument="&lt;webctrl type='' class='col-md-6 pt-4' parentid='frmData' tag='DIV' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;        &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Generate QRCode' /&gt;" Guid="4186cfb3-b3d9-489b-8d3a-ed01cc21e1a5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d72ec36e4d5b71f474a4b0ac44378d9.png" xmlns="">0t5PV4aJrSUSyzU-VjbYsKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

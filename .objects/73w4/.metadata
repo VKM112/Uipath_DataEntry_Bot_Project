@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Dgcardtask - Start Work - Opera",
+  "Type": "App",
+  "Id": "73w4x0p2SEKCHFqOT51H5g",
+  "Reference": "bOiXcwqjc0ij01kTBfHbXg/73w4x0p2SEKCHFqOT51H5g",
+  "Created": "2025-06-04T02:54:59.5782467Z",
+  "Updated": "2025-06-04T02:54:59.5782467Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

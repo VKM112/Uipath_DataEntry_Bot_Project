@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="alxFNv2ZmEmfTWQk2VII5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="009a93a6-f76b-40fa-a002-13db17099b35" CvElementArea="1031, 533, 60, 38" CvTextArea="1047, 544, 28, 13" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1034, 534, 56, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Next' parentid='barcodeModal' tag='BUTTON' type='button' /&gt;" Guid="98d2e884-0272-45d0-b1cb-663bfe455285" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="848, 270, 242, 241" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='qrCodeImage' tag='IMG' /&gt;" Guid="35177422-44ba-473b-aa9a-cc398c91c137" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="447fc259a0e537285e70e1cfcdca5975.png" xmlns="">0zJBlQT6NZU2GrBXBMFFsiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

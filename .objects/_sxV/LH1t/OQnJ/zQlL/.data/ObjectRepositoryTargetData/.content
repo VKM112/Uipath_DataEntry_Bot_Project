@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wiJR5OrI00SuxcNjrvXKvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvElementArea="550, 672, 343, 38" CvType="InputBox" DesignTimeRectangle="553, 673, 340, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='name' tag='INPUT' type='text' class='form-control' placeholder='Name' aaname='Name *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="c3ee7320-dfd0-443f-838e-bb18dd696b3f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvTextArea="551, 650, 48, 11" CvTextArgument="Name *" CvType="Text" DesignTimeRectangle="553, 647, 47, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='frmData' tag='LABEL' type='' class='form-label' aaname='Name *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Name *' /&gt;" Guid="e3fdd80d-7245-4346-9252-2165fe3ee244" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ae6f0584be0526f137663e4cb3989d16.png" xmlns="">0GrOpTYtMG0iyMGWREGh51Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

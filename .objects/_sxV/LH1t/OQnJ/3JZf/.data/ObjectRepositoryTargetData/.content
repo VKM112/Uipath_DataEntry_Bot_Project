@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yu1Ze1qOG0Cbf1ewNbbU_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvElementArea="551, 733, 343, 39" CvType="InputBox" DesignTimeRectangle="553, 734, 340, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='website' tag='INPUT' type='text' class='form-control' placeholder='Website' aaname='Website *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="329fcfba-7b12-46af-94cc-6feba23d2d2a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvTextArea="551, 710, 61, 12" CvTextArgument="Website *" CvType="Text" DesignTimeRectangle="553, 708, 59, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Website *' parentid='frmData' tag='LABEL' type='' class='form-label' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Website *' /&gt;" Guid="9d5b6dc5-5f7e-4f98-96e2-1ed62a9810e8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="04428daa27b1227939b56b160860d2b6.png" xmlns="">05WYKmodt6kefxPpSqmFQYw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

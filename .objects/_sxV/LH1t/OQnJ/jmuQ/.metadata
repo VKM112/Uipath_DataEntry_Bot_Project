@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Generate QRCode",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "jmuQaeNzikGgpqqq344J3g",
+  "Reference": "bOiXcwqjc0ij01kTBfHbXg/jmuQaeNzikGgpqqq344J3g",
+  "ParentRef": "bOiXcwqjc0ij01kTBfHbXg/OQnJ-CgdL0WBPcfft9bgCg",
+  "Created": "2025-06-04T07:26:08.4084975Z",
+  "Updated": "2025-06-04T07:26:08.4084975Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

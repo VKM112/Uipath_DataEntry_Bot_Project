@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gfceRbFzjEWpazsq0kgjMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvElementArea="550, 794, 344, 38" CvType="InputBox" DesignTimeRectangle="553, 795, 340, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='office_contact' tag='INPUT' type='text' class='form-control' placeholder='Office Contact' aaname='Office Contact *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="864d270e-79c8-43ba-89c9-4dfb611f3035" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" CvTextArea="551, 772, 100, 12" CvTextArgument="Office Contact -" CvType="Text" DesignTimeRectangle="553, 770, 98, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Office Contact *' parentid='frmData' tag='LABEL' type='' class='form-label' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Office Contact *' /&gt;" Guid="6400592c-7e0e-4378-81b4-8066f757a653" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6a3594301bf7fa3f9215915bac025caf.png" xmlns="">0S8hxHNamqEO5Pmnu4PYpTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
