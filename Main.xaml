@@ -116,7 +116,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="924.4000000000001,754.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1289.2,754.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -494,7 +494,7 @@
                                   </uix:VerifyExecutionOptions>
                                 </uix:NClick.VerifyOptions>
                               </uix:NClick>
-                              <Delay Duration="00:00:06" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
                               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Version="V4">
                                 <uix:NClick.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="009a93a6-f76b-40fa-a002-13db17099b35" ContentHash="alxFNv2ZmEmfTWQk2VII5Q" CvElementArea="1031, 533, 60, 38" CvTextArea="1047, 544, 28, 13" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1034, 534, 56, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Next' parentid='barcodeModal' tag='BUTTON' type='button' /&gt;" Guid="98d2e884-0272-45d0-b1cb-663bfe455285" InformativeScreenshot="447fc259a0e537285e70e1cfcdca5975.png" Reference="bOiXcwqjc0ij01kTBfHbXg/43FDPFJjiUiG2aS4yICRYw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
