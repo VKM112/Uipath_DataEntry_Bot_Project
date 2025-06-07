@@ -4,6 +4,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "error_1&Sequence_23",
         "count&bece06a7-0eca-4831-9473-db9b6d25486a",
         "while_1&bece06a7-0eca-4831-9473-db9b6d25486a"
       ],
