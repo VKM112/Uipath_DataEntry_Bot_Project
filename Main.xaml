@@ -116,7 +116,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1289.2,754.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="978,754.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -151,13 +151,13 @@
               <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Dgcardtask - Start Work" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="571.2,6193.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="190b86fa-d904-4948-aa8a-3a2935c9c99f" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Dgcardtask - Start Work" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="571.2,6316" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="190b86fa-d904-4948-aa8a-3a2935c9c99f" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="537.6,5976.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="537.6,6099.2" sap2010:WorkflowViewState.IdRef="Sequence_14">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="text_output_ocr" />
                     <Variable x:TypeArguments="s:String[]" Name="assign_values" />
@@ -210,15 +210,15 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NKeyboardShortcuts.VerifyOptions>
                   </uix:NKeyboardShortcuts>
-                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[count &lt; 50]" DisplayName="While" sap:VirtualizedContainerService.HintSize="504,5443.2" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[count &lt; 50]" DisplayName="While" sap:VirtualizedContainerService.HintSize="504,5565.6" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
                     <ui:InterruptibleWhile.Body>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="502.4,5320" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="502.4,5442.4" sap2010:WorkflowViewState.IdRef="Sequence_19">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="468.8,4813.6" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="468.8,4936" sap2010:WorkflowViewState.IdRef="TryCatch_3">
                           <TryCatch.Try>
                             <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="467.2,4268" sap2010:WorkflowViewState.IdRef="Sequence_11">
                               <sap:WorkflowViewStateService.ViewState>
@@ -274,55 +274,7 @@
                                   <InArgument x:TypeArguments="x:String">[assign_values(0).Trim]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_20">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:String">[designation]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">[assign_values(1).Trim]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_21">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:String">[company]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">[assign_values(2).Trim]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_22">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:String">[website]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">[assign_values(3).Trim]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_23">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:String">[address]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">[assign_values(4).Trim]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_24">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:String">[email]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">[assign_values(5).Trim]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_25">
-                                <Assign.To>
-                                  <OutArgument x:TypeArguments="x:String">[phone]</OutArgument>
-                                </Assign.To>
-                                <Assign.Value>
-                                  <InArgument x:TypeArguments="x:String">[assign_values(6).Trim]</InArgument>
-                                </Assign.Value>
-                              </Assign>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBetweenKeys="1" DisplayName="Type Into 'Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[name]" Version="V4">
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBetweenKeys="1" DisplayName="Type Into 'Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[name]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="wiJR5OrI00SuxcNjrvXKvw" CvElementArea="550, 672, 343, 38" CvType="InputBox" DesignTimeRectangle="553, 673, 340, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='name' tag='INPUT' type='text' class='form-control' placeholder='Name' aaname='Name *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="c3ee7320-dfd0-443f-838e-bb18dd696b3f" InformativeScreenshot="ae6f0584be0526f137663e4cb3989d16.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/zQlLH7gRIkKTEs95YJbAiA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                     <uix:TargetAnchorable.Anchors>
@@ -343,7 +295,15 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Designation *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[designation]" Version="V4">
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_20">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[designation]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[assign_values(1).Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Designation *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[designation]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="7T_8d4zod0WUyG_AMuHsqg" CvElementArea="915, 672, 343, 38" CvType="InputBox" DesignTimeRectangle="916, 673, 340, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='designation' tag='INPUT' type='text' class='form-control' placeholder='Designation' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="95a74081-41a7-44d0-ba2f-78f6f08e4dca" InformativeScreenshot="55447d819a2a25159f8a414227f886c4.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/ZOVt0fdws0mo9JJIlgryIA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                     <uix:TargetAnchorable.Anchors>
@@ -364,7 +324,15 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Company Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[company]" Version="V4">
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_21">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[company]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[assign_values(2).Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Company Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[company]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="UG4xlbSu50-Li-pvXLpdTQ" CvElementArea="1278, 672, 341, 37" CvType="InputBox" DesignTimeRectangle="1279, 673, 340, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='company_name' tag='INPUT' type='text' class='form-control' placeholder='Company Name' aaname='Company Name *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="08f31fe3-1f40-4717-8a55-1861e0a62f42" InformativeScreenshot="d1a4ae64249c05d5f342df71f5d7fdff.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/Wp2ahGNycUO2PlK3Y29C_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                     <uix:TargetAnchorable.Anchors>
@@ -385,7 +353,15 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Website *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[website]" Version="V4">
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_22">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[website]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[assign_values(3).Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Website *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[website]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="yu1Ze1qOG0Cbf1ewNbbU_g" CvElementArea="551, 733, 343, 39" CvType="InputBox" DesignTimeRectangle="553, 734, 340, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='website' tag='INPUT' type='text' class='form-control' placeholder='Website' aaname='Website *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="329fcfba-7b12-46af-94cc-6feba23d2d2a" InformativeScreenshot="04428daa27b1227939b56b160860d2b6.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/3JZfLo1yzkuPDeYuIgFiqg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                     <uix:TargetAnchorable.Anchors>
@@ -406,7 +382,15 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Address *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[address]" Version="V4">
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_23">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[address]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[assign_values(4).Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Address *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[address]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="RiqzQqC_FEuO-8rFCeAwSg" CvElementArea="915, 733, 342, 38" CvType="InputBox" DesignTimeRectangle="916, 734, 340, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='address' tag='INPUT' type='text' class='form-control' placeholder='Address' aaname='Address *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e991b2fc-f014-41ff-baae-f37124870bd4" InformativeScreenshot="7778b8a104a98e9cf5babc7cff9d47fd.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/MSPMPzUVVEaPe8JIj-DMHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                     <uix:TargetAnchorable.Anchors>
@@ -427,7 +411,15 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[email]" Version="V4">
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_24">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[email]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[assign_values(5).Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[email]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="D2yIWM9xskqReyd4MhW68g" CvElementArea="1277, 733, 343, 39" CvType="InputBox" DesignTimeRectangle="1279, 734, 340, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='form-control' placeholder='Email' aaname='Email *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="ad1fead3-df9e-483a-90ff-2de843c5ada7" InformativeScreenshot="a164ed216573a1747aa432924bf673f9.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/WPp314mLw0WLoGanYlH2yQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                     <uix:TargetAnchorable.Anchors>
@@ -448,6 +440,14 @@
                                   </uix:VerifyExecutionTypeIntoOptions>
                                 </uix:NTypeInto.VerifyOptions>
                               </uix:NTypeInto>
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_25">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[phone]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[assign_values(6).Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
                               <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Office Contact *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="190b86fa-d904-4948-aa8a-3a2935c9c99f" Text="[phone]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="dgcardtask.co.in/start-task" CVScreenId="11fa0500-cfaf-4f92-9c87-d5419a4590cf" ContentHash="gfceRbFzjEWpazsq0kgjMA" CvElementArea="550, 794, 344, 38" CvType="InputBox" DesignTimeRectangle="553, 795, 340, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='office_contact' tag='INPUT' type='text' class='form-control' placeholder='Office Contact' aaname='Office Contact *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="864d270e-79c8-43ba-89c9-4dfb611f3035" InformativeScreenshot="6a3594301bf7fa3f9215915bac025caf.png" IsResponsive="True" Reference="bOiXcwqjc0ij01kTBfHbXg/_ge7FiL-f0qaR_A-iQRDGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dgcardtask - Start Work' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
@@ -532,7 +532,7 @@
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,282.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,404.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -546,7 +546,8 @@
                                       <InArgument x:TypeArguments="x:Boolean">True</InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;error array out bounds&quot;]" />
+                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;error array out bounds&quot;]" />
+                                  <Delay Duration="00:00:20" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Delay_4" />
                                 </Sequence>
                               </ActivityAction>
                             </Catch>
